@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/unp.dir/cp1/get_time_tcp.c.o"
+  "CMakeFiles/unp.dir/cp1/get_time_tcp_client.c.o"
+  "CMakeFiles/unp.dir/cp1/get_time_tcp_server.c.o"
   "CMakeFiles/unp.dir/main.c.o"
   "unp"
   "unp.pdb"

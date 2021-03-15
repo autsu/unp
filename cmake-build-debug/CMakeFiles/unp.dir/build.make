@@ -90,32 +90,47 @@ CMakeFiles/unp.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unp.dir/main.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zz/CLionProjects/unp/main.c -o CMakeFiles/unp.dir/main.c.s
 
-CMakeFiles/unp.dir/cp1/get_time_tcp.c.o: CMakeFiles/unp.dir/flags.make
-CMakeFiles/unp.dir/cp1/get_time_tcp.c.o: ../cp1/get_time_tcp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zz/CLionProjects/unp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/unp.dir/cp1/get_time_tcp.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/unp.dir/cp1/get_time_tcp.c.o   -c /Users/zz/CLionProjects/unp/cp1/get_time_tcp.c
+CMakeFiles/unp.dir/cp1/get_time_tcp_client.c.o: CMakeFiles/unp.dir/flags.make
+CMakeFiles/unp.dir/cp1/get_time_tcp_client.c.o: ../cp1/get_time_tcp_client.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zz/CLionProjects/unp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/unp.dir/cp1/get_time_tcp_client.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/unp.dir/cp1/get_time_tcp_client.c.o   -c /Users/zz/CLionProjects/unp/cp1/get_time_tcp_client.c
 
-CMakeFiles/unp.dir/cp1/get_time_tcp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unp.dir/cp1/get_time_tcp.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zz/CLionProjects/unp/cp1/get_time_tcp.c > CMakeFiles/unp.dir/cp1/get_time_tcp.c.i
+CMakeFiles/unp.dir/cp1/get_time_tcp_client.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unp.dir/cp1/get_time_tcp_client.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zz/CLionProjects/unp/cp1/get_time_tcp_client.c > CMakeFiles/unp.dir/cp1/get_time_tcp_client.c.i
 
-CMakeFiles/unp.dir/cp1/get_time_tcp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unp.dir/cp1/get_time_tcp.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zz/CLionProjects/unp/cp1/get_time_tcp.c -o CMakeFiles/unp.dir/cp1/get_time_tcp.c.s
+CMakeFiles/unp.dir/cp1/get_time_tcp_client.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unp.dir/cp1/get_time_tcp_client.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zz/CLionProjects/unp/cp1/get_time_tcp_client.c -o CMakeFiles/unp.dir/cp1/get_time_tcp_client.c.s
+
+CMakeFiles/unp.dir/cp1/get_time_tcp_server.c.o: CMakeFiles/unp.dir/flags.make
+CMakeFiles/unp.dir/cp1/get_time_tcp_server.c.o: ../cp1/get_time_tcp_server.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zz/CLionProjects/unp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/unp.dir/cp1/get_time_tcp_server.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/unp.dir/cp1/get_time_tcp_server.c.o   -c /Users/zz/CLionProjects/unp/cp1/get_time_tcp_server.c
+
+CMakeFiles/unp.dir/cp1/get_time_tcp_server.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/unp.dir/cp1/get_time_tcp_server.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/zz/CLionProjects/unp/cp1/get_time_tcp_server.c > CMakeFiles/unp.dir/cp1/get_time_tcp_server.c.i
+
+CMakeFiles/unp.dir/cp1/get_time_tcp_server.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/unp.dir/cp1/get_time_tcp_server.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/zz/CLionProjects/unp/cp1/get_time_tcp_server.c -o CMakeFiles/unp.dir/cp1/get_time_tcp_server.c.s
 
 # Object files for target unp
 unp_OBJECTS = \
 "CMakeFiles/unp.dir/main.c.o" \
-"CMakeFiles/unp.dir/cp1/get_time_tcp.c.o"
+"CMakeFiles/unp.dir/cp1/get_time_tcp_client.c.o" \
+"CMakeFiles/unp.dir/cp1/get_time_tcp_server.c.o"
 
 # External object files for target unp
 unp_EXTERNAL_OBJECTS =
 
 unp: CMakeFiles/unp.dir/main.c.o
-unp: CMakeFiles/unp.dir/cp1/get_time_tcp.c.o
+unp: CMakeFiles/unp.dir/cp1/get_time_tcp_client.c.o
+unp: CMakeFiles/unp.dir/cp1/get_time_tcp_server.c.o
 unp: CMakeFiles/unp.dir/build.make
 unp: CMakeFiles/unp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zz/CLionProjects/unp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable unp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zz/CLionProjects/unp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable unp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

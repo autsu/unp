@@ -4,4 +4,4 @@ project(unp C)
 set(CMAKE_C_STANDARD 99)
 include_directories(/usr/local/include)
 
-add_executable(unp main.c cp1/get_time_tcp.c)
+add_executable(unp main.c cp1/get_time_tcp_client.c cp1/get_time_tcp_server.c)

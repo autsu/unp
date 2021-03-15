@@ -143,32 +143,59 @@ unp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unp.dir/build.make CMakeFiles/unp.dir/build
 .PHONY : unp/fast
 
-cp1/get_time_tcp.o: cp1/get_time_tcp.c.o
+cp1/get_time_tcp_client.o: cp1/get_time_tcp_client.c.o
 
-.PHONY : cp1/get_time_tcp.o
+.PHONY : cp1/get_time_tcp_client.o
 
 # target to build an object file
-cp1/get_time_tcp.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unp.dir/build.make CMakeFiles/unp.dir/cp1/get_time_tcp.c.o
-.PHONY : cp1/get_time_tcp.c.o
+cp1/get_time_tcp_client.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unp.dir/build.make CMakeFiles/unp.dir/cp1/get_time_tcp_client.c.o
+.PHONY : cp1/get_time_tcp_client.c.o
 
-cp1/get_time_tcp.i: cp1/get_time_tcp.c.i
+cp1/get_time_tcp_client.i: cp1/get_time_tcp_client.c.i
 
-.PHONY : cp1/get_time_tcp.i
+.PHONY : cp1/get_time_tcp_client.i
 
 # target to preprocess a source file
-cp1/get_time_tcp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unp.dir/build.make CMakeFiles/unp.dir/cp1/get_time_tcp.c.i
-.PHONY : cp1/get_time_tcp.c.i
+cp1/get_time_tcp_client.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unp.dir/build.make CMakeFiles/unp.dir/cp1/get_time_tcp_client.c.i
+.PHONY : cp1/get_time_tcp_client.c.i
 
-cp1/get_time_tcp.s: cp1/get_time_tcp.c.s
+cp1/get_time_tcp_client.s: cp1/get_time_tcp_client.c.s
 
-.PHONY : cp1/get_time_tcp.s
+.PHONY : cp1/get_time_tcp_client.s
 
 # target to generate assembly for a file
-cp1/get_time_tcp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unp.dir/build.make CMakeFiles/unp.dir/cp1/get_time_tcp.c.s
-.PHONY : cp1/get_time_tcp.c.s
+cp1/get_time_tcp_client.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unp.dir/build.make CMakeFiles/unp.dir/cp1/get_time_tcp_client.c.s
+.PHONY : cp1/get_time_tcp_client.c.s
+
+cp1/get_time_tcp_server.o: cp1/get_time_tcp_server.c.o
+
+.PHONY : cp1/get_time_tcp_server.o
+
+# target to build an object file
+cp1/get_time_tcp_server.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unp.dir/build.make CMakeFiles/unp.dir/cp1/get_time_tcp_server.c.o
+.PHONY : cp1/get_time_tcp_server.c.o
+
+cp1/get_time_tcp_server.i: cp1/get_time_tcp_server.c.i
+
+.PHONY : cp1/get_time_tcp_server.i
+
+# target to preprocess a source file
+cp1/get_time_tcp_server.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unp.dir/build.make CMakeFiles/unp.dir/cp1/get_time_tcp_server.c.i
+.PHONY : cp1/get_time_tcp_server.c.i
+
+cp1/get_time_tcp_server.s: cp1/get_time_tcp_server.c.s
+
+.PHONY : cp1/get_time_tcp_server.s
+
+# target to generate assembly for a file
+cp1/get_time_tcp_server.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unp.dir/build.make CMakeFiles/unp.dir/cp1/get_time_tcp_server.c.s
+.PHONY : cp1/get_time_tcp_server.c.s
 
 main.o: main.c.o
 
@@ -206,9 +233,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... unp"
-	@echo "... cp1/get_time_tcp.o"
-	@echo "... cp1/get_time_tcp.i"
-	@echo "... cp1/get_time_tcp.s"
+	@echo "... cp1/get_time_tcp_client.o"
+	@echo "... cp1/get_time_tcp_client.i"
+	@echo "... cp1/get_time_tcp_client.s"
+	@echo "... cp1/get_time_tcp_server.o"
+	@echo "... cp1/get_time_tcp_server.i"
+	@echo "... cp1/get_time_tcp_server.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
